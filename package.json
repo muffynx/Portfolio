@@ -1,6 +1,6 @@
 {
   "name": "web-portfolio",
-  "homepage": "https://muffynx.github.io/web-portforlio/",
+  "homepage": "https://muffynx.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "preview": "vite preview",
-        "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
