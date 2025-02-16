@@ -1,15 +1,18 @@
 {
   "name": "web-portfolio",
+  "homepage": "https://muffynx.github.io/web-portforlio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "author": "NekoSakuraLucia (Cxllme Neko)",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+        "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.4.2",
